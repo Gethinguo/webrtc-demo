@@ -1,11 +1,13 @@
 # webrtc 例子
 
 ## 说明
-1. webrtc-demo\src\utils\socket.js  
+1. server.js
+自己写的 node 服务后台，需要启动
+2. webrtc-demo\src\utils\socket.js  
 sock连接，里面有连接地址，可以改
-2. views/remote.vue 
+3. views/remote.vue 
 远程连接的demo
-3. views/some.vue
+4. views/some.vue
 多人连接的例子 
 
 ##启动
