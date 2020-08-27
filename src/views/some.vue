@@ -66,7 +66,6 @@
         beforeDestroy() {
             console.log('开始销毁')
             this.leave_func()
-
         },
         methods: {
             getUserMedia() {
