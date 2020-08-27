@@ -1,24 +1,20 @@
-# demo2
+# webrtc 例子
 
-## Project setup
-```
-yarn install
-```
+## 说明
+1. webrtc-demo\src\utils\socket.js  
+sock连接，里面有连接地址，可以改
+2. views/remote.vue 
+远程连接的demo
+3. views/some.vue
+多人连接的例子 
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+##启动
 
-### Compiles and minifies for production
-```
-yarn build
-```
+1. 启动node服务,node server.js
+2. 启动项目, npm run serve 
+3. 进入
 
-### Lints and fixes files
-```
-yarn lint
-```
+## 配置
+如果不是启动在 https 下，需要配置浏览器调用摄像头
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+chrome://flags/#unsafely-treat-insecure-origin-as-secure
